@@ -42,7 +42,7 @@ $inspect(todoList);
      </ul>
      <ul>
           {#if (todoList.length > 0)}
-               <button type="button" onclick={clear}>Clear</button>
+               <button class="clear" type="button" onclick={clear}>Clear</button>
           {/if}
      </ul>
 </div>

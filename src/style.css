@@ -4,14 +4,13 @@ body{
      background-image: url('./img/paper.jpg');
      background-repeat: no-repeat;
      color: rgb(60, 60, 60);
-     
+     width: 100%;
 }
 
 h1{
      text-align: center;
      font-size: 5em;
      margin: 0%;
-     padding-top: 1.5vw;
 }
 
 .main{
@@ -19,6 +18,21 @@ h1{
      align-items: center;
      flex-direction: column;
 }
+
+li{
+     padding-top: 16px;
+}
+
+.clear{
+     margin-top: 0.9em;
+}
+
+@media screen and (max-width: 2600px){
+     h1{
+          padding-top: 4.5px;
+     }
+}
+
 
 
 
